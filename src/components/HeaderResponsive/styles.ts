@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export const MyHeader = styled('header', {
   width: '100%',
-  height: '116px',
+  height: '80px',
   zIndex: 1,
 });
 
@@ -43,6 +43,8 @@ export const NavListAni = styled(motion.ul, {
   backgroundColor: '$color1',
   boxShadow: '0px 4px 4px 3000px rgba(0, 0, 0, 0.25)',
   borderRadius: '30px',
+
+  zIndex: 999,
 
   textAlign: 'center',
 });
