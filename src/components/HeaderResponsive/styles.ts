@@ -2,9 +2,8 @@ import { styled } from '~/styles';
 import { motion } from 'framer-motion';
 
 export const MyHeader = styled('header', {
-  position: 'absolute',
   width: '100%',
-  height: '5rem',
+  height: '116px',
   zIndex: 1,
 });
 
@@ -23,7 +22,7 @@ export const HeaderContentAni = styled(motion.nav, {
     textDecoration: 'none',
 
     '> span': {
-      color: '$primary',
+      color: '$color1',
       fontSize: '$24',
       textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
     },
@@ -41,7 +40,7 @@ export const NavListAni = styled(motion.ul, {
   listStyle: 'none',
   padding: '$24',
 
-  backgroundColor: '$primary',
+  backgroundColor: '$color1',
   boxShadow: '0px 4px 4px 3000px rgba(0, 0, 0, 0.25)',
   borderRadius: '30px',
 
@@ -53,13 +52,13 @@ export const NavItemAni = styled(motion.li, {
     position: 'relative',
 
     textDecoration: 'none',
-    color: '$tertiary',
+    color: '$color3',
     fontSize: '$16',
     fontWeight: '$semi-bold',
     transition: 'color 0.2s ease-out',
 
     '&:hover': {
-      color: '$secondary',
+      color: '$color2',
     },
   },
 

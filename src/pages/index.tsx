@@ -1,3 +1,10 @@
+//Components
+import { SectionHome } from '~/components/SectionHome';
+
 export default function Home() {
-  return <></>;
+  return (
+    <main>
+      <SectionHome />
+    </main>
+  );
 }

@@ -9,11 +9,13 @@ export const globalStyles = globalCss({
   },
   'body, button': {
     fontFamily: `$default`,
+  },
+  button: {
     cursor: 'pointer',
   },
   body: {
-    background: `$background`,
-    color: `$text`,
+    background: `$color0`,
+    color: `$color5`,
   },
   '#root': {
     width: '100%',
