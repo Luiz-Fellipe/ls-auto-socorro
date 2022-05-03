@@ -78,12 +78,7 @@ export function HeaderResponsive() {
       >
         <Link href="/">
           <a aria-label="retornar">
-            <Image
-              src={Logo}
-              width="107"
-              height="117"
-              alt="logo auto socorro"
-            />
+            <Image src={Logo} width="85" height="92" alt="logo auto socorro" />
           </a>
         </Link>
 
