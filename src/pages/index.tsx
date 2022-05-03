@@ -1,4 +1,5 @@
 //Components
+
 import { SectionAboutUs } from '~/components/SectionAboutUs';
 import { SectionHome } from '~/components/SectionHome';
 
