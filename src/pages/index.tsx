@@ -1,7 +1,7 @@
 //Components
-
 import { SectionAboutUs } from '~/components/SectionAboutUs';
 import { SectionHome } from '~/components/SectionHome';
+import { SectionPhotosGallery } from '~/components/SectionPhotosGallery';
 import { SectionWhatWeTransport } from '~/components/SectionWhatWeTransport';
 
 export default function Home() {
@@ -10,6 +10,7 @@ export default function Home() {
       <SectionHome />
       <SectionAboutUs />
       <SectionWhatWeTransport />
+      <SectionPhotosGallery />
     </main>
   );
 }
