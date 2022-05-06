@@ -30,8 +30,11 @@ export const ContentAboutUs = styled('div', {
   },
 
   '@md': {
+    padding: '$64 $8',
+
     '> p': {
       maxWidth: '768px',
+      margin: '$32 auto auto auto',
     },
   },
 });

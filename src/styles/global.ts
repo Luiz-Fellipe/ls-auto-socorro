@@ -7,7 +7,7 @@ export const globalStyles = globalCss({
     border: `none`,
     boxSizing: `border-box`,
   },
-  'body, button': {
+  'body, button, input, textarea': {
     fontFamily: `$default`,
   },
   button: {

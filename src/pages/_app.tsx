@@ -21,8 +21,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      {isDesktop ? <Header /> : <HeaderResponsive />}
       <DefaultSeo {...SEO} />
+      {isDesktop ? <Header /> : <HeaderResponsive />}
       <Component {...pageProps} />
     </>
   );

@@ -21,6 +21,8 @@ export const { styled, getCssText, globalCss } = createStitches({
       '32': `2rem`,
       '40': '2.5rem',
       '48': '3rem',
+      '56': '3.5rem',
+      '64': '4rem',
     },
     radii: {
       full: `99999px`,
@@ -37,6 +39,7 @@ export const { styled, getCssText, globalCss } = createStitches({
       '18': '1.125rem',
       '24': `1.5rem`,
       '32': `2rem`,
+      '48': `2.5rem`,
     },
     fontWeights: {
       regular: '400',
