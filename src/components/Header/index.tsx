@@ -62,7 +62,7 @@ export function Header() {
             <NavItemAni
               variants={liVariants}
               transition={{ duration: 0.4 }}
-              key={i.url}
+              key={i.id}
             >
               <Link href={i.url}>
                 <a>{i.title}</a>

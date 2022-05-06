@@ -21,7 +21,7 @@ export function SectionContactUs() {
     'Olá LS Auto Socorro, Peguei seu número através do site. Está Disponível ?';
 
   return (
-    <WrapperContactUs>
+    <WrapperContactUs id="fale-conosco">
       <ContentContactUs>
         <Title value="Fale Conosco" />
         <span>
@@ -43,7 +43,7 @@ export function SectionContactUs() {
         </PhonesContainer>
 
         <h3>Email:</h3>
-        <span>lsautosocorro@gmail.com</span>
+        <span>lsautosocorroetransporte@gmail.com</span>
 
         <h3>Redes Sociais:</h3>
         <SocialMediaContainer>

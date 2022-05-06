@@ -57,7 +57,7 @@ export function SectionWhatWeTransport() {
   }, []);
 
   return (
-    <WrapperWhatWeTransport>
+    <WrapperWhatWeTransport id="o-que-transportamos">
       <ContentWhatWeTransport>
         <Title value="O que Transportamos ?" />
         <p>

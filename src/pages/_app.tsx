@@ -13,6 +13,7 @@ import { Header } from '~/components/Header';
 
 //Styles
 import { globalStyles } from '~/styles/global';
+import { Footer } from '~/components/Footer';
 
 globalStyles();
 
@@ -24,6 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <DefaultSeo {...SEO} />
       {isDesktop ? <Header /> : <HeaderResponsive />}
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }

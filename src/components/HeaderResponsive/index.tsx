@@ -92,7 +92,7 @@ export function HeaderResponsive() {
           variants={ulVariants}
         >
           {config.content.map((i) => (
-            <NavItemAni variants={liVariants} key={i.url}>
+            <NavItemAni variants={liVariants} key={i.id}>
               <Link href={i.url}>
                 <a>{i.title}</a>
               </Link>

@@ -13,7 +13,7 @@ export function SectionHome() {
     'Olá LS Auto Socorro, Peguei seu número através do site. Está Disponível ?';
 
   return (
-    <WrapperHome>
+    <WrapperHome id="home">
       <ContentHome>
         <BodyHome>
           <h1>

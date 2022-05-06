@@ -7,6 +7,9 @@ export const globalStyles = globalCss({
     border: `none`,
     boxSizing: `border-box`,
   },
+  html: {
+    scrollBehavior: 'smooth',
+  },
   'body, button, input, textarea': {
     fontFamily: `$default`,
   },
