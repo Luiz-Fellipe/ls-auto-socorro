@@ -4,6 +4,10 @@ import { styled } from '~/styles';
 export const WrapperPhotosSlider = styled('div', {
   width: '100%',
   marginTop: '$24',
+
+  '@md': {
+    marginTop: '$32',
+  },
 });
 
 export const PhotoContainer = styled('div', {

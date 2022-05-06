@@ -1,6 +1,6 @@
 const title = 'LS AUTO SOCORRO - Transporte de Veículos e Cargas Secas';
 const description =
-  'A LS Auto Socorro realiza o transporte dos mais diversos veiculos e cargas pelo Brasil';
+  'A LS Auto Socorro realiza o transporte dos mais diversos veiculos e cargas pelo Brasil.';
 
 export const SEO = {
   title,

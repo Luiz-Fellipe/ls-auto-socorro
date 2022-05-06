@@ -7,7 +7,7 @@ export const WrapperHome = styled('section', {
 export const ContentHome = styled('div', {
   width: '100%',
 
-  backgroundImage: "url('/images/background.png')",
+  backgroundImage: "url('/images/background.webp')",
 
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
@@ -52,7 +52,9 @@ export const BodyHome = styled('div', {
     textAlign: 'center',
   },
 
-  '> button': {
+  '> a': {
+    textDecoration: 'none',
+
     marginTop: '$24',
 
     width: 'fit-content',

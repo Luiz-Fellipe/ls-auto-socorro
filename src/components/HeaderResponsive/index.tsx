@@ -78,7 +78,13 @@ export function HeaderResponsive() {
       >
         <Link href="/">
           <a aria-label="retornar">
-            <Image src={Logo} width="85" height="92" alt="logo auto socorro" />
+            <Image
+              src={Logo}
+              width="116"
+              height="116"
+              alt="logo auto socorro"
+              layout="responsive"
+            />
           </a>
         </Link>
 
@@ -92,7 +98,7 @@ export function HeaderResponsive() {
           variants={ulVariants}
         >
           {config.content.map((i) => (
-            <NavItemAni variants={liVariants} key={i.url}>
+            <NavItemAni variants={liVariants} key={i.id}>
               <Link href={i.url}>
                 <a>{i.title}</a>
               </Link>

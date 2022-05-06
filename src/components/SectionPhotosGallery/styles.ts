@@ -14,4 +14,12 @@ export const ContentPhotosGallery = styled('div', {
     marginTop: '$24',
     textAlign: 'center',
   },
+
+  '@md': {
+    padding: '$64 $8',
+
+    '> p': {
+      marginTop: '$32',
+    },
+  },
 });

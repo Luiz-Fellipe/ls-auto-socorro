@@ -11,7 +11,7 @@ import { WrapperAboutUs, ContentAboutUs, ImageContainer } from './styles';
 
 export function SectionAboutUs() {
   return (
-    <WrapperAboutUs>
+    <WrapperAboutUs id="quem-somos">
       <ContentAboutUs>
         <Title value="Quem Somos ?" />
         <ImageContainer>

@@ -138,12 +138,20 @@ export function PhotosSlider() {
           </ImgContainerAni>
         </AnimatePresence>
         {currentPosition !== 0 && (
-          <ArrowCard className="left" onClick={() => handlePaginate(-1)}>
+          <ArrowCard
+            className="left"
+            onClick={() => handlePaginate(-1)}
+            aria-label="voltar há página anterior"
+          >
             <FontAwesomeIcon icon={faChevronLeft} />
           </ArrowCard>
         )}
         {currentPosition !== photos.length - 1 && (
-          <ArrowCard className="right" onClick={() => handlePaginate(1)}>
+          <ArrowCard
+            className="right"
+            onClick={() => handlePaginate(1)}
+            aria-label="ir para próxima página"
+          >
             <FontAwesomeIcon icon={faChevronRight} />
           </ArrowCard>
         )}

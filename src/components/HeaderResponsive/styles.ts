@@ -19,7 +19,10 @@ export const HeaderContentAni = styled(motion.nav, {
   padding: '$0 $16',
 
   '> a': {
+    width: '80px',
+
     textDecoration: 'none',
+    display: 'block',
 
     '> span': {
       color: '$color1',

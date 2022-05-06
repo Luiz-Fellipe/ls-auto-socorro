@@ -26,8 +26,10 @@ export const ContentWhatWeTransport = styled('div', {
   },
 
   '@md': {
+    padding: '$64 $8',
     '> p': {
       maxWidth: '768px',
+      margin: '$32 auto auto auto',
     },
   },
 });
@@ -41,6 +43,10 @@ export const CardContainer = styled('div', {
   flexWrap: 'wrap',
   gap: '$24',
   justifyContent: 'center',
+
+  '@md': {
+    marginTop: '$32',
+  },
 });
 
 export const Card = styled('div', {

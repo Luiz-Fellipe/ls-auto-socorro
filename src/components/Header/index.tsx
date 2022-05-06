@@ -51,8 +51,8 @@ export function Header() {
           <a aria-label="retornar">
             <Image
               src={Logo}
-              width="107"
-              height="117"
+              width="116"
+              height="116"
               alt="logo auto socorro"
             />
           </a>
@@ -62,7 +62,7 @@ export function Header() {
             <NavItemAni
               variants={liVariants}
               transition={{ duration: 0.4 }}
-              key={i.url}
+              key={i.id}
             >
               <Link href={i.url}>
                 <a>{i.title}</a>
