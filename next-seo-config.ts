@@ -14,7 +14,7 @@ export const SEO = {
     description,
     images: [
       {
-        url: '/images/imageMetatag.png',
+        url: '/images/metatag.webp',
         alt: title,
         width: 1200,
         height: 628,
