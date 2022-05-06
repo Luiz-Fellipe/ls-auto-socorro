@@ -82,12 +82,12 @@ export const LogoContainer = styled('div', {
   top: '-40px',
   transform: 'translateX(-50%)',
 
-  width: '80px',
-  height: '80px',
+  width: '85px',
+  height: '85px',
   backgroundColor: '$color0',
   borderRadius: '$full',
 
-  display: 'block',
+  display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
 });

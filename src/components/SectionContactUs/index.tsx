@@ -50,7 +50,10 @@ export function SectionContactUs() {
           <Link
             href={`https://api.whatsapp.com/send?phone=${number}&text=${message}`}
           >
-            <a>
+            <a
+              aria-label="ir para o whatsapp da ls auto socorro"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faWhatsapp} />
             </a>
           </Link>

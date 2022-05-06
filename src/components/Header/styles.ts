@@ -28,6 +28,12 @@ export const HeaderContentAni = styled(motion.nav, {
       textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
     },
   },
+
+  '@md': {
+    '> a': {
+      width: '116px',
+    },
+  },
 });
 
 export const NavList = styled('ul', {

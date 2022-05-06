@@ -51,8 +51,8 @@ export function Header() {
           <a aria-label="retornar">
             <Image
               src={Logo}
-              width="107"
-              height="117"
+              width="116"
+              height="116"
               alt="logo auto socorro"
             />
           </a>

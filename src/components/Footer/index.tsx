@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 //Assets
-import Logo from '~/public/images/logo.svg';
+import Logo from '~/public/images/logo-footer.svg';
 import { config } from '../Header/content';
 
 //Styles
@@ -13,13 +13,7 @@ export function Footer() {
   return (
     <WrapperFooter>
       <LogoContainer>
-        <Image
-          src={Logo}
-          width="107"
-          height="117"
-          alt="logo auto socorro"
-          layout="fill"
-        />
+        <Image src={Logo} width="60" height="60" alt="logo auto socorro" />
       </LogoContainer>
 
       <nav>

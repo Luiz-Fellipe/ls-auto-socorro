@@ -25,7 +25,9 @@ export function SectionHome() {
             <strong> segurança e agilizade.</strong>
           </p>
 
-          <button type="button">FALE CONOSCO</button>
+          <Link href="#fale-conosco">
+            <a>FALE CONOSCO</a>
+          </Link>
         </BodyHome>
       </ContentHome>
       <FooterHome>
