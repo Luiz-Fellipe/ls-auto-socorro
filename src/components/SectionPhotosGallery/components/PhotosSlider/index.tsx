@@ -41,6 +41,16 @@ export function PhotosSlider() {
         url: '/images/photos/image3.png',
         alt: 'Uma foto mostrando a lateral do caminhão carregado com um carro em baixo e um carro sendo arrastado na traseira.',
       },
+      {
+        id: 4,
+        url: '/images/photos/image4.jpeg',
+        alt: 'uma foto mostrando a lateral do caminhão carregado com telhas.',
+      },
+      {
+        id: 5,
+        url: '/images/photos/image5.jpeg',
+        alt: 'uma foto mostrando a lateral do caminhão carregado com uma bobcat.',
+      },
     ];
 
     return result;
