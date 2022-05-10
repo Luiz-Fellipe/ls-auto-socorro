@@ -22,7 +22,7 @@ export function SectionHome() {
 
           <p>
             Nós atendemos em todo o território nacional com o máximo de
-            <strong> segurança e agilizade.</strong>
+            <strong> segurança e agilidade.</strong>
           </p>
 
           <Link href="#fale-conosco">
