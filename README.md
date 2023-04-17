@@ -1,5 +1,6 @@
 # LS Auto Socorro :articulated_lorry:
 
+
 <img src="./public/images/photos/banner.gif" width="auto" />
 
 <br>
@@ -31,7 +32,10 @@ The Prototype of this project can be found in this [link from figma](https://www
 
 <br>
 
-In this project i followed the [Mobile First](https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00)
+In this project i followed the SEO techniques and  [Mobile First](https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00)
+<br>
+
+<img src="./public/images/photos/banner-mobile.gif" width="auto" />
 
 <br>
 
