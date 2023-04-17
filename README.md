@@ -4,7 +4,7 @@
 
 <br>
 <br>
-<div align="center">
+<div>
  <a href="#project">👉 Project</a>
  <a href="#technologies">👉 Technologies</a>
  <a href="#execution">👉 Execution</a>
